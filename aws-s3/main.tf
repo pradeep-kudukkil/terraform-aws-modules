@@ -5,12 +5,12 @@ terraform {
 }
 
 module "my_s3_bucket" {
-  source = "./s3_bucket_module"  // Path to your module
+  source = "./s3_bucket_module" // Path to your module
 
-  bucket_name                 = var.bucket_name
-  enable_versioning           = var.enable_versioning
-  acl                         = var.acl
+  bucket_name                   = var.bucket_name
+  enable_versioning             = var.enable_versioning
+  acl                           = var.acl
   enable_server_side_encryption = var.enable_server_side_encryption
-  public_access_block         = var.public_access_block
-  tags                        = var.tags
+  public_access_block           = var.public_access_block
+  tags                          = var.tags
 }

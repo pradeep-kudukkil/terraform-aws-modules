@@ -1,6 +1,6 @@
-bucket_name                  = "my-example-bucket-fekmfkef"
-enable_versioning            = false
-acl                          = "private"
+bucket_name                   = "my-example-bucket-fekmfkef"
+enable_versioning             = false
+acl                           = "private"
 enable_server_side_encryption = true
 
 public_access_block = {
